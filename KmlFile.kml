@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+	<name>Polygon name</name>
+	<description>Polygon description</description>
+	<Style>
+		<LineStyle>
+			<color>7DD500FF</color>
+			<width>5.0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7D00FF1E</color>
+		</PolyStyle>
+	</Style>
+	<Polygon>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>
+					23.75366,54.954454,0.0 23.75513,54.954034,0.0 23.755028,54.953487,0.0 23.753522,54.953551,0.0 23.75366,54.954454,0.0 
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>Default polyline</name>
+	<Style>
+		<LineStyle>
+			<width>4.0</width>
+			<color>7D0000FF</color>
+		</LineStyle>
+	</Style>
+	<LineString>
+		<coordinates>
+			23.752608,54.954578,0.0 23.75254,54.954089,0.0 23.753567,54.95403,0.0 
+		</coordinates>
+	</LineString>
+</Placemark>
+<Placemark> 
+	<name>Placemark name</name>
+	<Point>
+		<coordinates>
+			23.754378,54.95378,0.0
+		</coordinates>
+	</Point> 
+</Placemark>
+</Document>
+</kml>
