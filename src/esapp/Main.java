@@ -15,11 +15,12 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws EkmlException {
-        Point p = new Point(54.953780, 23.754378);
+        Point point = new Point(54.953780, 23.754378);
 
 
-        Placemark placemark = new Placemark.Builder(p)
-                .name("Placemark name")
+        Placemark placemark = new Placemark.Builder(point)
+                .name("Pavadinimas")
+                .description("Aprašymas")
                 .build();
 
         List<Point> polygonPoints = new ArrayList<>();
@@ -29,8 +30,8 @@ public class Main {
         polygonPoints.add(new Point(54.953551, 23.753522));
 
         Polygon polygon = new Polygon.Builder(polygonPoints)
-                .description("Polygon description")
-                .name("Polygon name")
+                .name("Pavadinimas")
+                .description("Aprašymas")
                 .fillColor("7D1EFF00")
                 .lineColor("7DFF00D5")
                 .lineWidth(5)
@@ -44,7 +45,10 @@ public class Main {
 
 
         Polyline polyline = new Polyline.Builder(polylinePoints)
-                .name("Default polyline")
+                .name("Pavadinimas")
+                .description("Aprašymas")
+                .lineColor("7DFF00D5")
+                .lineWidth(5)
                 .build();
 
 

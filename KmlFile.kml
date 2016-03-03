@@ -2,8 +2,8 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
-	<name>Polygon name</name>
-	<description>Polygon description</description>
+	<name>Pavadinimas</name>
+	<description>Aprašymas</description>
 	<Style>
 		<LineStyle>
 			<color>7DD500FF</color>
@@ -24,11 +24,12 @@
 	</Polygon>
 </Placemark>
 <Placemark>
-	<name>Default polyline</name>
+	<name>Pavadinimas</name>
+	<description>Aprašymas</description>
 	<Style>
 		<LineStyle>
-			<width>4.0</width>
-			<color>7D0000FF</color>
+			<width>5.0</width>
+			<color>7DD500FF</color>
 		</LineStyle>
 	</Style>
 	<LineString>
@@ -38,7 +39,8 @@
 	</LineString>
 </Placemark>
 <Placemark> 
-	<name>Placemark name</name>
+	<name>Pavadinimas</name>
+	<description>Aprašymas</description>
 	<Point>
 		<coordinates>
 			23.754378,54.95378,0.0

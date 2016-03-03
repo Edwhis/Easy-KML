@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/easy_kml.iml" filepath="$PROJECT_DIR$/easy_kml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/src/library/library.iml" filepath="$PROJECT_DIR$/library/src/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/easykml.iml" filepath="$PROJECT_DIR$/library/easykml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_easy_kml.iml" filepath="$PROJECT_DIR$/test_easy_kml.iml" />
     </modules>
   </component>
 </project>
